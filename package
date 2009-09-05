@@ -1,0 +1,8 @@
+#/bin/sh
+rm -rf build
+mkdir build
+cp -R www build/
+cp -R etc build/
+cp application.xml build/
+
+adt -package -storetype pkcs12 -keystore /etc/dev_cert.pfx -storepass password -tsa none AirWeb.air www/*.*

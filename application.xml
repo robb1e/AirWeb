@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+	<id>com.iclutton.air</id>
+	<filename>AirWeb</filename>
+	<name>AirWeb</name>
+	<version>0.1</version>
+	<description>Hello world web app for Air</description>
+	<copyright></copyright>
+	<initialWindow>
+		<content>www/index.html</content>
+		<title/>
+		<!--wmode>window</wmode-->
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>false</maximizable>
+		<resizable>true</resizable>
+		<width>450</width>
+		<height>550</height>
+		<x>200</x>
+		<y>200</y>
+		<minSize>450 550</minSize>
+		<maxSize>1280 1024</maxSize>
+	</initialWindow>
+	<installFolder>iclutton/hello</installFolder>
+	<programMenuFolder>iclutton/hello</programMenuFolder>	
+	<icon>
+	</icon>
+
+<fileTypes/>
+</application>
